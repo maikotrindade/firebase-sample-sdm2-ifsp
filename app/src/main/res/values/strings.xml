@@ -1,5 +1,12 @@
 <resources>
-    <string name="app_name">Agenda</string>
+    <string name="app_name">Firebase Sample</string>
     <string name="search_hint">Buscar contato</string>
     <string name="title_activity_detalhe">Novo contato</string>
+    <string name="msg_delete_successful">Removido com sucesso</string>
+    <string name="lbl_remove_contact">Remover contato</string>
+    <string name="lbl_save">Salvar</string>
+    <string name="lbl_delete">Excluir</string>
+    <string name="lbl_contact_name">Nome do contato</string>
+    <string name="msg_update_successful">Alterado com sucesso</string>
+    <string name="msg_inserted_successful">Incluído com sucesso</string>
 </resources>

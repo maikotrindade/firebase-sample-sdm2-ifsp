@@ -7,18 +7,17 @@ import android.view.View;
 
 import br.edu.ifspsaocarlos.agenda.R;
 
-public class MainActivity extends BaseActivity{
+public class MainActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-       super.onCreate(savedInstanceState);
-
+        super.onCreate(savedInstanceState);
 
 
         FloatingActionButton myFab = (FloatingActionButton) findViewById(R.id.fab);
         myFab.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), DetalheActivity.class);
+                Intent i = new Intent(getApplicationContext(), DetailActivity.class);
                 startActivityForResult(i, 0);
 
             }
@@ -31,7 +30,6 @@ public class MainActivity extends BaseActivity{
     protected void onRestart() {
         super.onRestart();
         buildListView();
-        searchView.clearFocus();
-
+        mSearchView.clearFocus();
     }
 }
